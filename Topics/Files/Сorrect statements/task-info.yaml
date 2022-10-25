@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: An instance of <b>java.io.File</b> cannot represent directories
+- text: All operating systems use the same character to separate the path to a file
+- text: It is possible to create an object of <b>java.io.File</b> by passing a string
+    that represents the path to a file
+- text: It is possible to create an instance of <b>java.io.File</b> that represents
+    a non-existing file
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3627#comment
+status: Solved
+record: -1
+local_check: false

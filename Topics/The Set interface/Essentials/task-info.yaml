@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: ' The standard library provides only unordered sets'
+- text: It is possible to get the size of a set
+- text: ' A set can store only unique elements'
+- text: ' It is possible to get an element by its index from a set'
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2770#comment
+status: Solved
+record: -1
+local_check: false

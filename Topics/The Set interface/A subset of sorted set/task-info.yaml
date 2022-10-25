@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: <b>subSet</b> is {3, 4, 5, 6}
+- text: <b>subSet</b> is {3, 4, 5, 6, 7}
+- text: <b>first</b> is 0
+- text: <b>first</b> is 10
+- text: <b>first</b> is 9
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2102#comment
+status: Solved
+record: -1
+local_check: false

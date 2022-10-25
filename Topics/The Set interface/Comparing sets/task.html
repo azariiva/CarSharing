@@ -1,0 +1,37 @@
+<h2>Comparing sets</h2>
+<p>Consider two sets: <code class="language-java">set1</code><strong> </strong>and <code class="language-java">set2</code>.</p>
+
+<p>Select all cases when the following statement returns <strong>true</strong>.</p>
+
+<pre><code class="language-java">set1.equals(set2);</code></pre>
+
+<p>Cases:</p>
+
+<p>a)</p>
+
+<pre><code class="language-java">Set&lt;Integer&gt; set1 = Set.of(1, 2, 3);
+Set&lt;Integer&gt; set2 = Set.of(1, 2, 3);</code></pre>
+
+<p>b)</p>
+
+<pre><code class="language-java">Set&lt;Integer&gt; set1 = Set.of(1, 2, 3);
+Set&lt;Integer&gt; set2 = Set.of(3, 2, 1);</code></pre>
+
+<p>c)</p>
+
+<pre><code class="language-java">Set&lt;Integer&gt; set1 = new LinkedHashSet&lt;&gt;();
+set1.add(1);
+set1.add(3);
+set1.add(2);
+
+Set&lt;Integer&gt; set2 = new LinkedHashSet&lt;&gt;();
+set2.add(1);
+set2.add(3);</code></pre>
+
+<p>d)</p>
+
+<pre><code class="language-java">SortedSet&lt;Integer&gt; set1 = new TreeSet&lt;&gt;();
+set1.add(1);
+set1.add(3);
+
+Set&lt;Integer&gt; set2 = Set.of(3, 1);</code></pre>
